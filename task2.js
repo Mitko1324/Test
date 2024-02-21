@@ -14,8 +14,4 @@ function countAndSum(arr1){
             negativeSum = negativeSum + arr1[i]
         }
     }return [positiveCount,negativeSum]
-}console.log(countAndSum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]));
-
-module.exports = {
-	countAndSum
-}
+}console.log(countAndSum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]))
